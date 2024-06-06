@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/iconoyo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about-me"><i class="fas fa-user"></i>About me</a></li>
+            <li><a href="#projects"><i class="fas fa-folder-open"></i>Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact me</a></li>
+        </ul>
+    </nav>
+
+    <section id="about-me" class="section">
+        <div class="container">
+            <div class="info">
+                <img src="images/yo.png" alt="yo" class="yo">
+            </div>
+            <h1>Matías Mollica Pesce</h1>
+            <h2 class="title">Front-End React Developer</h2>
+            <p>
+                Male
+                <br><br>
+                22 years old
+                <br><br>
+                Montevideo, Uruguay
+                <br><br>
+                Recreation Technician
+                <br><br>
+                Visual communication student
+            </p>
+        </div>
+        <div class="col">
+            <h3>Interests</h3>
+            <div class="contenedor-interests">
+                <div class="interest">
+                    <i class="fas fa-gamepad"></i>
+                    <span>VIDEOGAMES</span>
+                </div>
+                <div class="interest">
+                    <i class="fas fa-headphones"></i>
+                    <span>MUSIC</span>
+                </div>
+                <div class="interest">
+                    <i class="fas fa-plane"></i>
+                    <span>TRAVELS</span>
+                </div>
+                <div class="interest">
+                    <i class="fas fa-futbol"></i>
+                    <span>SPORTS</span>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fas fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+        <audio id="audioPlayer" autoplay>
+            <source src="audio/Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams Nile Rodgers.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container1">
+            <h1>Projects</h1>
+            <!-- Aquí puedes añadir el contenido de tus proyectos -->
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container2">
+            <h1>Contact me</h1>
+            <!-- Aquí puedes añadir el contenido de tu sección de contacto -->
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
