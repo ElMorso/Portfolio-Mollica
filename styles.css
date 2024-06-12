@@ -9,21 +9,21 @@ body, html {
 }
 
 body::-webkit-scrollbar {
-    width: 10px; /* Ancho de la scrollbar */
+    width: 10px;
 }
 
 body::-webkit-scrollbar-track {
-    background: rgb(93, 47, 128); /* Color de fondo de la scrollbar */
-    border-radius: 10px; /* Bordes redondeados */
+    background: rgb(93, 47, 128); 
+    border-radius: 10px; 
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: white; /* Color de la barra */
-    border-radius: 10px; /* Bordes redondeados */
+    background-color: white; 
+    border-radius: 10px; 
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: #a07eb3; /* Color de la barra al pasar el ratón */
+    background-color: #a07eb3;
 }
 
 .navbar {
@@ -75,6 +75,28 @@ body::-webkit-scrollbar-thumb:hover {
     align-items: center;
     text-align: center;
     color: rgb(220, 210, 210);
+}
+
+#presentation h2 {
+    font-size: medium;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#presentation a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 30px 5px;
+    transition: .3s;
+}
+
+#presentation a:hover {
+    background-color: #a07eb3;
 }
 
 #about-me {
