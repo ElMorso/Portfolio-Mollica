@@ -20,75 +20,85 @@
         </nav>
     </header>
 
-    <section id="presentation" class="section">
+    <section id="about-me" class="section">
         <div class="container">
             <div class="info">
                 <img src="images/yo.png" alt="yo" class="yo">
             </div>
             <h1>Matías Mollica Pesce</h1>
             <h2 class="title">Front-End React Developer</h2>
+            <p>I am a 22-year-old Uruguayan currently studying a Bachelor's Degree in Visual Communication. I am constantly learning about programming and development to improve my skills. My strengths lie in working under pressure and listening to clients (due to my previous jobs), and I also excel in teamwork to achieve common challenges. I am looking for training to improve and achieve goals.</p>
+            <h3>Interests</h3>
+            <div class="contenedor-interests">
+                <div class="interest">
+                    <i class="fas fa-gamepad"></i>
+                    <br>
+                    <span>VIDEOGAMES</span>
+                </div>
+                <div class="interest">
+                    <i class="fas fa-headphones"></i>
+                    <br>
+                    <span>MUSIC</span>
+                </div>
+                <div class="interest">
+                    <i class="fas fa-plane"></i>
+                    <br>
+                    <span>TRAVELS</span>
+                </div>
+                <div class="interest">
+                    <i class="fas fa-futbol"></i>
+                    <br>
+                    <span>SPORTS</span>
+                </div>
+            </div>
+        
+            <audio id="audioPlayer" autoplay>
+                <source src="audio/Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams Nile Rodgers.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
             <a href=" https://w.app/xicXUq" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="https://www.linkedin.com/in/mat%C3%ADas-mollica-pesce-541a4522b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/ElMorso" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
     </section>
 
-    <section id="about-me" class="section">
-        <div class="container">
-            <h2>About me</h2>
-        <div class="col">
-            <p>
-                Male
-                <br><br>
-                22 years old
-                <br><br>
-                Montevideo, Uruguay
-                <br><br>
-                Recreation Technician
-                <br><br>
-                Visual communication student
-            </p>
-            <h3>Interests</h3>
-            <div class="contenedor-interests">
-                <div class="interest">
-                    <i class="fas fa-gamepad"></i>
-                    <span>VIDEOGAMES</span>
-                </div>
-                <div class="interest">
-                    <i class="fas fa-headphones"></i>
-                    <span>MUSIC</span>
-                </div>
-                <div class="interest">
-                    <i class="fas fa-plane"></i>
-                    <span>TRAVELS</span>
-                </div>
-                <div class="interest">
-                    <i class="fas fa-futbol"></i>
-                    <span>SPORTS</span>
-                </div>
-            </div>
-        </div>
-        <audio id="audioPlayer" autoplay>
-            <source src="audio/Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams Nile Rodgers.mp3" type="audio/mpeg">
-            Tu navegador no soporta el elemento de audio.
-        </audio>
-    </section>
 
     <section id="projects" class="section">
         <div class="container1">
             <h1>Projects</h1>
-            <!-- Aquí puedes añadir el contenido de tus proyectos -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/carnavalcaptura.PNG" alt="carnavalimg">
+                </div>
+                <div class="project-info">
+                    <h3>"Carnaval Uruguayo"</h3>
+                    <p>This project is dedicated to the Uruguayan Carnival. It tells the story of its beginnings and its current state, including the stages where it takes place and some of its most iconic characters. This project was created using HTML, CSS, SCSS, and Bootstrap. You can find this project on my GitHub </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/deseoviajescaptura.PNG" alt="deseoimg">
+                </div>
+                <div class="project-info">
+                    <h3>"Deseo Viajes"</h3>
+                    <p>This project is a travel website for all types of customers. It features potential destinations around the world and serves to inform the customer about the destination or destinations they wish to travel to. This project was created using HTML, CSS, and JavaScript. You can find this project on my GitHub</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="contact" class="section">
         <div class="container2">
             <h1>Contact me</h1>
-            <div>
-                <button>
-                    Descargar CV <i class="fas fa-download"></i>
-                    <span class="overlay"></span>
-                </button>
+            <div class="form">
+                <h2>Email me</h2>
+                <input type="email" placeholder="Your Email">
+                <textarea rows="4" placeholder="Your Message"></textarea>
+                <button class="btn">Send</button>
+                <p>Or</p>
+                <a href="MatíasMollica.pdf" download="MiCV" class="download-btn">
+                    Download CV <i class="fas fa-download"></i>
+                </a>
             </div>
         </div>
     </section>
